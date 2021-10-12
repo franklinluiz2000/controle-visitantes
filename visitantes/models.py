@@ -20,7 +20,7 @@ class Visitante(models.Model):
         auto_now=False,        
     )
 
-    nuero_casa = models.PositiveSmallIntegerField(
+    numero_casa = models.PositiveSmallIntegerField(
         verbose_name="Número da casa a ser visitada",
     )
 

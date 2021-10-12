@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('nome_completo', models.CharField(max_length=194, verbose_name='Nome completo')),
                 ('cpf', models.CharField(max_length=11, verbose_name='CPF')),
                 ('data_nascimento', models.DateField(verbose_name='Data_nascimento')),
-                ('nuero_casa', models.PositiveSmallIntegerField(verbose_name='Número da casa a ser visitada')),
+                ('numero_casa', models.PositiveSmallIntegerField(verbose_name='Número da casa a ser visitada')),
                 ('placa_veiculo', models.CharField(blank=True, max_length=7, null=True, verbose_name='Placa de veículo')),
                 ('horario_chegada', models.DateTimeField(auto_now_add=True, verbose_name='Horario de chegada na portaria')),
                 ('horario_saida', models.DateTimeField(blank=True, null=True, verbose_name='Horario de saída do condominio')),
